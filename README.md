@@ -2,7 +2,7 @@
 % i@srqi.email  
 % All rights reserved.  
   
-# MomentTollbox
+# MomentToolbox
 Matlab code for many classic moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM.  
   
 Zernike Moments (ZM) [1]  
