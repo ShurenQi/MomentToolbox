@@ -1,12 +1,12 @@
-This code was developed by Shuren Qi
-Google Scholar: https://scholar.google.com/citations?user=U4UPvlkAAAAJ&hl=en
-Email: i@srqi.email
-All rights reserved.
+This code was developed by Shuren Qi  
+Google Scholar: https://scholar.google.com/citations?user=U4UPvlkAAAAJ&hl=en  
+Email: i@srqi.email  
+All rights reserved.  
 
-# Related Papers
-Please cite these papers if you use this code:
-[1]	Hongying Yang, Shuren Qi, Chao Wang, Sibo Yang, and Xiangyang Wang, “Image analysis by Log-Polar Exponent-Fourier Moments,” Pattern Recognition (PR), vol. 101, May 2020. (SCI, IF=5.898, CCF-B, DOI: 10.1016/j.patcog.2019.107177)
-[2]	Hongying Yang, Shuren Qi, Panpan Niu and Xiangyang Wang, “Color image zero-watermarking based on Fast Quaternion Generic Polar Complex Exponential Transform,” Signal Processing: Image Communication (SPIC), vol. 82, March 2020. (SCI, IF=2.814, CCF-C, DOI: 10.1016/j.image.2019.115747)
+# Related Papers  
+Please cite these papers if you use this code:  
+[1]	Hongying Yang, Shuren Qi, Chao Wang, Sibo Yang, and Xiangyang Wang, “Image analysis by Log-Polar Exponent-Fourier Moments,” Pattern Recognition (PR), vol. 101, May 2020. (SCI, IF=5.898, CCF-B, DOI: 10.1016/j.patcog.2019.107177)  
+[2]	Hongying Yang, Shuren Qi, Panpan Niu and Xiangyang Wang, “Color image zero-watermarking based on Fast Quaternion Generic Polar Complex Exponential Transform,” Signal Processing: Image Communication (SPIC), vol. 82, March 2020. (SCI, IF=2.814, CCF-C, DOI: 10.1016/j.image.2019.115747)  
 
   
 # MomentToolbox
