@@ -15,8 +15,8 @@ I=imread('lena.tif');
 % I=imresize(I,[256 256]);
 %% MODE
 MD={'1.ZM[1980]';'2.PZM[1988]';'3.OFMM[1994]';'4.CHFM[2002]';'5.PJFM[2004]';'6.JFM[2007]';'7.BFM[2010]';'8.GPCET[2014]';'9.LM[1980]';'10.TM[2001]';'11.KM[2003]'};for i=1:1:11, disp(MD{i}); end
-MODE = input('请选择模式：');
-K = input('请输入阶数：');
+MODE = input('Please select a mode: (1 ~ 11)');
+K = input('Please enter the maximum order K: (a natural number)');
 %% COMPUTE
 if MODE==1
     [I,It,L,DT,RT ]=ZM(I,K);
