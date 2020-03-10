@@ -27,7 +27,7 @@ Krawtchouk Moments (KM) [10]
 [1]	M. R. Teague, Image analysis via the general theory of moments, J. Opt. Soc. Am., 70 (1980) 920-930.  
 [2]	C. H. Teh, R. T. Chin, On image analysis by the methods of moments, IEEE Trans. Pattern Anal. Mach. Intell., 10 (1988) 496-513.  
 [3]	Y. Sheng, L. Shen, Orthogonal Fourier–Mellin moments for invariant pattern recognition, J. Opt. Soc. Am. A, 11 (1994) 1748-1757.  
-[4]	Z. Ping, R. Wu, Y. Sheng, Image description with Chebyshev–Fourier moments, J. Opt. Soc. Am. A, 19 (2002) 1748-1754.
+[4]	Z. Ping, R. Wu, Y. Sheng, Image description with Chebyshev–Fourier moments, J. Opt. Soc. Am. A, 19 (2002) 1748-1754.  
 [5] G. Amu, S. Hasi, X. Yang, Z. Ping, Image analysis by Pseudo-Jacobi (p = 4, q = 3)–Fourier moments, Appl. Optics, 43 (2004) 2093–2101.  
 [6]	Z. Ping, H. Ren, J. Zou, Y. Sheng, W. Bo, Generic orthogonal moments: Jacobi–Fourier moments for invariant image description, Pattern Recogn., 40 (2007) 1245-1254.  
 [7]	B. Xiao, J. Ma, X. Wang, Image analysis by Bessel–Fourier moments, Pattern Recogn., 43 (2010) 2620-2629.  
