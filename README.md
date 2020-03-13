@@ -1,6 +1,6 @@
 This code was developed by Shuren Qi  
 Google Scholar: https://scholar.google.com/citations?user=U4UPvlkAAAAJ&hl=en  
-DBLP: https://dblp.uni-trier.de/pers/hd/q/Qi:Shu=Ren
+DBLP: https://dblp.uni-trier.de/pers/hd/q/Qi:Shu=Ren  
 Email: i@srqi.email  
 All rights reserved.  
 
