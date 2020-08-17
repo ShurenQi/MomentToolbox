@@ -25,8 +25,7 @@ Krawtchouk Moments (KM) [10]
 [9]	R. Mukundan, S. H. Ong, P. A. Lee, Image analysis by Tchebichef moments, IEEE Trans. Image Process., 10 (2001) 1357-1364.   
 [10]	P. T. Yap, R. Paramesran, S. H. Ong, Image analysis by Krawtchouk moments, IEEE Trans. Image Process., 12 (2003) 1367-1377. 
 
-## Related Papers  
-Please cite these papers if you use this code:  
+## My Related Papers  
 [1]	Hongying Yang, Shuren Qi, Chao Wang, Sibo Yang, and Xiangyang Wang, “Image analysis by Log-Polar Exponent-Fourier Moments,” Pattern Recognition (PR), vol. 101, May 2020. (DOI: 10.1016/j.patcog.2019.107177)  
 [2]	Hongying Yang, Shuren Qi, Panpan Niu and Xiangyang Wang, “Color image zero-watermarking based on Fast Quaternion Generic Polar Complex Exponential Transform,” Signal Processing: Image Communication (SPIC), vol. 82, March 2020. (DOI: 10.1016/j.image.2019.115747)  
 
