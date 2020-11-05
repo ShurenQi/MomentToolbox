@@ -1,10 +1,9 @@
 # MomentToolbox
-This repository is an implementation of the method in
-"Orthogonal moments for image representation: A survey", in preparation.
-Code implemented by Shuren Qi ( i@srqi.email ). All rights reserved.
- 
+This repository is an implementation of the method in  
+"Orthogonal moments for image representation: A survey", in preparation.  
+Code implemented by Shuren Qi ( i@srqi.email ). All rights reserved.  
 ## Overview
-MomentToolbox is an open-source implementation for a variety of widely-used orthogonal moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM. 
+**MomentToolbox** is an open-source implementation for a variety of widely-used orthogonal moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM. 
 Zernike Moments (ZM) [1]  
 Pseudo-Zernike Moments (PZM) [2]  
 Orthogonal Fourier–Mellin Moments (OFMM) [3]  
