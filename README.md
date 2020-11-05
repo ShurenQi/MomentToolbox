@@ -1,8 +1,10 @@
 # MomentToolbox
-Matlab code for many classic moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM.  
+This repository is an implementation of the method in
+"Orthogonal moments for image representation: A survey", in preparation.
 Code implemented by Shuren Qi ( i@srqi.email ). All rights reserved.
  
-## References 
+## Overview
+MomentToolbox is an open-source implementation for a variety of widely-used orthogonal moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM. 
 Zernike Moments (ZM) [1]  
 Pseudo-Zernike Moments (PZM) [2]  
 Orthogonal Fourier–Mellin Moments (OFMM) [3]  
@@ -24,8 +26,4 @@ Krawtchouk Moments (KM) [10]
 [8]	T. V. Hoang, S. Tabbone, Generic polar harmonic transforms for invariant image representation, Image Vision Comput., 32 (2014) 497-509.  
 [9]	R. Mukundan, S. H. Ong, P. A. Lee, Image analysis by Tchebichef moments, IEEE Trans. Image Process., 10 (2001) 1357-1364.   
 [10]	P. T. Yap, R. Paramesran, S. H. Ong, Image analysis by Krawtchouk moments, IEEE Trans. Image Process., 12 (2003) 1367-1377. 
-
-## My Related Papers  
-[1]	Hongying Yang, Shuren Qi, Chao Wang, Sibo Yang, and Xiangyang Wang, “Image analysis by Log-Polar Exponent-Fourier Moments,” Pattern Recognition (PR), vol. 101, May 2020. (DOI: 10.1016/j.patcog.2019.107177)  
-[2]	Hongying Yang, Shuren Qi, Panpan Niu and Xiangyang Wang, “Color image zero-watermarking based on Fast Quaternion Generic Polar Complex Exponential Transform,” Signal Processing: Image Communication (SPIC), vol. 82, March 2020. (DOI: 10.1016/j.image.2019.115747)  
 
