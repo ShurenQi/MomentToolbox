@@ -3,18 +3,20 @@ This repository is an implementation of the method in
 "Orthogonal moments for image representation: A survey", in preparation.  
 Code implemented by Shuren Qi ( i@srqi.email ). All rights reserved.  
 ## Overview
-**MomentToolbox** is an open-source implementation for a variety of widely-used orthogonal moments, including ZM, PZM, OFMM, CHFM, PJFM, JFM, BFM, GPCET, LM, TM, and KM.   
-Zernike Moments (ZM) [1]  
-Pseudo-Zernike Moments (PZM) [2]  
-Orthogonal Fourier–Mellin Moments (OFMM) [3]  
-Chebyshev-Fourier Moments (CHFM) [4]  
-Pseudo Jacobi-Fourier Moments (PJFM) [5]  
-Jacobi-Fourier Moments (JFM) [6]  
-Bessel–Fourier Moments (BFM) [7]  
-Generic Polar Complex Exponential Transform (GPCET) [8]  
-Legendre Moments (LM) [1]  
-Tchebichef Moments (TM) [9]  
-Krawtchouk Moments (KM) [10]  
+**MomentToolbox** is an open-source implementation for a variety of widely-used orthogonal moments, including：   
+* Zernike Moments (ZM) [1]  
+* Pseudo-Zernike Moments (PZM) [2]  
+* Orthogonal Fourier–Mellin Moments (OFMM) [3]  
+* Chebyshev-Fourier Moments (CHFM) [4]  
+* Pseudo Jacobi-Fourier Moments (PJFM) [5]  
+* Jacobi-Fourier Moments (JFM) [6]  
+* Bessel–Fourier Moments (BFM) [7]  
+* Generic Polar Complex Exponential Transform (GPCET) [8]  
+* Legendre Moments (LM) [1]  
+* Tchebichef Moments (TM) [9]  
+* Krawtchouk Moments (KM) [10]  
+  
+  
 [1]	M. R. Teague, Image analysis via the general theory of moments, J. Opt. Soc. Am., 70 (1980) 920-930.  
 [2]	C. H. Teh, R. T. Chin, On image analysis by the methods of moments, IEEE Trans. Pattern Anal. Mach. Intell., 10 (1988) 496-513.  
 [3]	Y. Sheng, L. Shen, Orthogonal Fourier–Mellin moments for invariant pattern recognition, J. Opt. Soc. Am. A, 11 (1994) 1748-1757.  
