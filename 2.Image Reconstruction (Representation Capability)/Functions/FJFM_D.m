@@ -1,0 +1,78 @@
+function [ output ] = FJFM_D(img,maxorder,p,q,alpha)
+[N, M]  = size(img);
+x       = -1+1/M:2/M:1-1/M;
+y       = 1-1/N:-2/N:-1+1/N;
+[X,Y]   = meshgrid(x,y);
+[th, r]  = cart2pol(X, Y);
+pz=th<0;
+theta =zeros(N,M);
+theta(pz)     = th(pz) + 2*pi;
+theta(~pz)     = th(~pz);
+pz=r>1;
+rho =zeros(N,M);
+rho(pz)     = 0.5;
+rho(~pz)     = r(~pz); 
+output=zeros(maxorder+1,2*maxorder+1);
+for order=0:1:maxorder
+    R=getRadialPoly(order,rho,p,q,alpha);
+    for repetition=-maxorder:1:maxorder
+        pupil =R.*exp(-1j*repetition * theta);
+        Product = double(img) .* pupil;
+        cnt = nnz(R)+1; 
+        output(order+1,repetition+maxorder+1)=sum(Product(:))*(4/cnt)*(1/(2*pi));       % calculate the moments
+    end
+end
+end
+
+%% Direct
+% function [output] = getRadialPoly(order,rho,p,q,alpha)
+% % obtain the order and repetition
+% n = order;
+% output = zeros(size(rho));      % initilization
+% 
+% % compute the radial polynomial
+% for k = 0:n
+%     c = ((-1)^k)*gamma(p+n+k)/(factorial(n-k)*factorial(k)*gamma(q+k));
+%     output = output + c * (rho.^(alpha*(k)));
+% end
+% output=output.*(factorial(n)*gamma(q)/gamma(p+n)).*sqrt(alpha*((1-rho.^alpha).^(p-q)).*(rho.^(alpha*q-1))./(rho*(factorial(order)*gamma(q)*gamma(q)*gamma(p-q+order+1)/(gamma(q+order)*gamma(p+order)*(p+2*order)))));
+% end % end getRadialPoly method
+
+%% Recursive
+function [output] = getRadialPoly(order,rho,p,q,alpha)
+% obtain the order
+n = order;
+% PN
+if n>=2
+    P0=(gamma(p)/gamma(q))*ones(size(rho));
+    P1=(gamma(p+1)/gamma(q))*(1-((p+1)/q)*(rho.^alpha));
+    PN1=P1;PN2=P0;
+    for k = 2:n
+        L1=-((2*k+p-1)*(2*k+p-2))/(k*(q+k-1));
+        L2=(p+2*k-2)+(((k-1)*(q+k-2)*L1)/(p+2*k-3));
+        L3=((p+2*k-4)*(p+2*k-3)/2)+((q+k-3)*(k-2)*L1/2)-((p+2*k-4)*L2);
+        PN=(L1*(rho.^alpha)+L2).*PN1+L3.*PN2;
+        PN2=PN1;
+        PN1=PN;
+    end
+elseif n==1
+    PN=(gamma(p+1)/gamma(q))*(1-((p+1)/q)*(rho.^alpha));
+elseif n==0
+    PN=(gamma(p)/gamma(q))*ones(size(rho));
+end
+
+%AN
+if n>=1
+    A0=sqrt(gamma(q)/(gamma(p)*gamma(p-q+1)));
+    AN1=A0;
+    for k = 1:n
+        AN=sqrt(k*(q+k-1)/((p+k-1)*(p-q+k)))*AN1;
+        AN1=AN;
+    end
+elseif n==0
+    AN=sqrt(gamma(q)/(gamma(p)*gamma(p-q+1)));
+end
+
+output=sqrt((p+2*n)*alpha*((1-rho.^alpha).^(p-q)).*(rho.^(alpha*q-1))./rho)*AN.*PN;
+
+end % end getRadialPoly method
