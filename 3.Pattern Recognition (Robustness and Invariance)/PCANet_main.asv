@@ -120,7 +120,7 @@ PCANet
 %% Load pre-trained models for CASE1 %%
 % The pre-trained models of PCANet are too large to be uploaded to Github.
 % You can use the above training code to get the same models, but it takes more time.
-% Please feel free to contact me to get these models directly.
+% If you want , please feel free to contact me to get these models directly (i@srqi.email).
 
 load('models1.mat')
 load('V1.mat')
@@ -128,7 +128,7 @@ load('V1.mat')
 %% Load pre-trained models for CASE2 %%
 % The pre-trained models of PCANet are too large to be uploaded to Github.
 % You can use the above training code to get the same models, but it takes more time.
-% Please feel free to contact me to get these models directly.
+% If you want to get these models directly, please feel free to contact me (i@srqi.email).
 
 % load('models2.mat')
 % load('V2.mat')
