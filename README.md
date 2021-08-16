@@ -1,6 +1,6 @@
 # MomentToolbox
 This repository is an implementation of the method in  
-"A survey of orthogonal moments for image representation: Theory, implementation, and evaluation", *ACM Computing Surveys*, 2021.
+"A survey of orthogonal moments for image representation: Theory, implementation, and evaluation", *ACM Computing Surveys*, accepted.  
 Code implemented by Shuren Qi ( i@srqi.email ). All rights reserved.
 
 ## Overview
