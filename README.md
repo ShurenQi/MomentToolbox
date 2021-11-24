@@ -9,5 +9,7 @@ Image representation is an important topic in computer vision and pattern recogn
 
 ## Related Link
 2021-CV-Surveys: https://github.com/52CV/2021-CV-Surveys.
-A translated version (in Chinese): https://zhuanlan.zhihu.com/p/402410540.  
+
+A translated version (in Chinese): https://zhuanlan.zhihu.com/p/402410540. 
+
 A short introduction (in Chinese): https://mp.weixin.qq.com/s/ymAAzMQbWbKyuWz_r0wDBQ  
